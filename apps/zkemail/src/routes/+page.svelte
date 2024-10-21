@@ -60,7 +60,11 @@
       <Ui.Card.Content class="p-3">
         <div>
           <label class="mb-0 inline-block">
-            <span role="button" class="inline-block">Select .eml file</span>
+            <span
+              class="inline-block px-4 py-2 border border-transparent text-sm font-medium rounded-md bg-primary text-secondary cursor-pointer"
+            >
+              Select .eml file
+            </span>
             <br />
             <input
               type="file"
