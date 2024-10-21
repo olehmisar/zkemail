@@ -1,0 +1,18 @@
+{
+  "name": "@repo/monorepo",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test:lint": "pnpm _chore && pnpm -r --parallel test:lint",
+    "_chore": "pnpm i"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.2"
+  },
+  "pnpm": {
+    "patchedDependencies": {
+      "@noir-lang/noir_wasm@0.33.0": "patches/@noir-lang__noir_wasm.patch",
+      "sveltekit-superforms": "patches/sveltekit-superforms.patch"
+    }
+  }
+}

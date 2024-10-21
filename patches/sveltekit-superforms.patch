@@ -1,0 +1,13 @@
+diff --git a/dist/adapters/index.js b/dist/adapters/index.js
+index d022b0d285a4c0e23dd7b4e0fc2b291e7ca49103..4d2c7778b024e8acc8ab7133d4be8c00254a25d9 100644
+--- a/dist/adapters/index.js
++++ b/dist/adapters/index.js
+@@ -6,7 +6,7 @@ export { typebox, typeboxClient } from './typebox.js';
+ export { valibot, valibotClient } from './valibot.js';
+ export { yup, yupClient } from './yup.js';
+ export { zod, zodClient } from './zod.js';
+-export { vine, vineClient } from './vine.js';
++// export { vine, vineClient } from './vine.js';
+ export { schemasafe, schemasafeClient } from './schemasafe.js';
+ export { superstruct, superstructClient } from './superstruct.js';
+ /*

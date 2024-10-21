@@ -1,3 +1,7 @@
-# zkemail lib
+# zkemail in Noir
 
-Used by <https://noir-email.vercel.app/>.
+Prove any email with selective disclosure: <https://noir-email.vercel.app/>.
+
+Written in Noir and Svelte.
+
+![zkemail](./assets/zkemail.jpg)

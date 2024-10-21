@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "zkEmail Noir",
+  "description": "Prove you received an email from a specific address with a specific content without revealing it.",
+  "version": "0.0.1",
+  "action": {
+    "default_title": "zkEmail Noir",
+    "default_popup": "index.html"
+  }
+}
