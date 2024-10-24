@@ -112,7 +112,6 @@ export class ZkEmailCircuitService {
   }
 
   async verify(proof: EmailProof) {
-    // TODO(security): get headersReveals and bodyReveals from proof
     await this.#assertRevealsAgainstPublicInputs(proof);
 
     const { headersReveals, bodyReveals } = this.toHeadersAndBodyReveals({
@@ -253,7 +252,6 @@ export interface EmailProof {
     // TODO: signature is not needed really. It's here because `get_limbs` cannot except only public key
     signatureBase64: string;
   };
-  // TODO(security): define headersReveal and bodyReveas from proof.publicInputs
   headersReveals: RevealStringPartRequest[];
   bodyReveals: RevealStringPartRequest[];
 }
